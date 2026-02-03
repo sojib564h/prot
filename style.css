@@ -1330,106 +1330,6 @@ textarea.form-input {
   font-size:11px;
 }
 
-/* ===== FINAL Mobile Fix for About Image ===== */
-
-.about-image{
-  width:100%;
-  display:flex;
-  justify-content:center;
-}
-
-.image-wrapper{
-  width:100%;
-  max-width:420px;
-  height:auto !important;
-  position:relative;
-  border-radius:20px;
-  overflow:hidden;
-}
-
-.about-img{
-  width:100%;
-  height:auto;
-  display:block;
-  object-fit:cover;
-  border-radius:20px;
-}
-
-/* Badge Fix */
-.experience-badge{
-  position:absolute;
-  bottom:12px;
-  right:12px;
-  padding:10px 14px;
-  border-radius:12px;
-}
-
-/* Mobile Responsive */
-@media(max-width:768px){
-  .image-wrapper{
-    max-width:320px;
-  }
-
-  .experience-badge{
-    padding:8px 12px;
-  }
-
-  .badge-number{
-    font-size:18px;
-  }
-
-  .badge-text{
-    font-size:11px;
-  }
-}
-/* ===== FIX EXPERIENCE BADGE VISIBILITY ===== */
-
-.image-wrapper{
-    position: relative;
-    overflow: visible !important;
-}
-
-.experience-badge{
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    z-index: 9999;
-    background: linear-gradient(135deg, #7b61ff, #ff4ecb);
-    padding: 10px 16px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,.45);
-    filter: none !important;
-    backdrop-filter: none !important;
-    opacity: 1 !important;
-    transform: none !important;
-}
-
-/* Text clarity fix */
-.experience-badge h3,
-.experience-badge span{
-    color: #fff !important;
-    font-weight: 700;
-    text-shadow: 0 2px 6px rgba(0,0,0,.5);
-}
-
-/* ===== MOBILE FIX ===== */
-@media (max-width: 768px){
-    .experience-badge{
-        bottom: 8px;
-        right: 8px;
-        padding: 8px 12px;
-        border-radius: 10px;
-    }
-
-    .experience-badge h3{
-        font-size: 16px;
-    }
-
-    .experience-badge span{
-        font-size: 12px;
-    }
-}
 /* ==== Fix 8+ Years Experience Visibility ==== */
 
 .exp-badge,
@@ -1463,7 +1363,6 @@ textarea.form-input {
   box-shadow: 0 8px 20px rgba(247,47,180,0.45);
   font-weight: 600;
 }
-
 
 
 
