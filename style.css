@@ -240,7 +240,7 @@ body {
     font-weight: 700;
     background: var(--gradient);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #ffffff;
+    -webkit-text-fill-color: transparent;
 }
 
 .stat-label {
@@ -475,7 +475,7 @@ section {
     font-weight: 700;
     background: var(--gradient);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #ffffff;
+    -webkit-text-fill-color: transparent;
 }
 
 .badge-text {
@@ -1364,4 +1364,5 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
+
 
