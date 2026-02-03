@@ -1339,153 +1339,59 @@ textarea.form-input {
   .badge-text{
     font-size:11px;
   }
-    /* =============================
-   GLOBAL MOBILE RESPONSIVE CSS
-   ============================= */
+    /* ===== Mobile Friendly Project Buttons ===== */
 
-@media (max-width: 992px) {
-
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  h1 { font-size: 36px; }
-  h2 { font-size: 28px; }
-  h3 { font-size: 22px; }
-  p  { font-size: 14px; }
-
+.project-buttons{
+  display:flex;
+  gap:10px;
+  margin:15px 15px 20px;
+  flex-wrap:wrap;
 }
 
-/* =============================
-   TABLET + MOBILE
-   ============================= */
+.project-buttons a{
+  flex:1;
+  min-width:140px;
+  text-decoration:none;
+  font-size:13px;
+  padding:10px 12px;
+  border-radius:25px;
+  transition:0.3s;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  font-weight:600;
+}
 
-@media (max-width: 768px) {
+/* Watch Proof */
+.btn-proof{
+  background:linear-gradient(135deg,#7b2ff7,#f72fb4);
+  color:#fff;
+}
 
-  body{
-    overflow-x:hidden;
-  }
+.btn-report{
+  border:1px solid #8c52ff;
+  color:#8c52ff;
+}
 
-  section{
-    padding:60px 0;
-  }
+/* Hover */
+.btn-proof:hover,
+.btn-report:hover{
+  transform:translateY(-2px);
+}
 
-  /* Navbar */
-  nav{
-    padding:14px 18px;
-  }
-
-  .nav-links{
-    flex-direction:column;
-    gap:14px;
-  }
-
-  /* Hero Section */
-  .hero,
-  .about-wrapper,
-  .about-content,
-  .services-grid,
-  .projects-grid,
-  .contact-wrapper{
-    flex-direction:column !important;
-    grid-template-columns:1fr !important;
-    text-align:center;
-  }
-
-  .hero-left,
-  .hero-right,
-  .about-text,
-  .about-image{
-    width:100% !important;
-  }
-
-  .hero h1{
-    font-size:34px;
-  }
-
-  /* About Image */
-  .image-wrapper{
-    max-width:90%;
-    margin:auto;
-  }
-
-  /* Services Cards */
-  .service-grid{
-    grid-template-columns:1fr;
-  }
-
-  /* Projects Section */
-  .portfolio-grid,
-  .projects-grid{
-    grid-template-columns:1fr;
-  }
-
-  /* Buttons */
+/* Mobile Layout */
+@media (max-width: 600px){
   .project-buttons{
     flex-direction:column;
-    width:100%;
+    margin:15px 10px 20px;
   }
 
   .project-buttons a{
     width:100%;
-    padding:12px;
     font-size:14px;
+    padding:12px;
   }
-
-}
-
-/* =============================
-   SMALL MOBILE
-   ============================= */
-
-@media (max-width: 480px){
-
-  h1{ font-size:28px; }
-  h2{ font-size:24px; }
-
-  p{
-    font-size:13px;
-    line-height:1.6;
-  }
-
-  section{
-    padding:50px 0;
-  }
-
-  .experience-badge{
-    padding:8px 10px;
-  }
-
-  .badge-number{
-    font-size:18px;
-  }
-
-  .badge-text{
-    font-size:11px;
-  }
-
-}
-
-/* =============================
-   IMAGE RESPONSIVE
-   ============================= */
-
-img{
-  max-width:100%;
-  height:auto;
-  display:block;
-}
-
-/* =============================
-   GRID FIX
-   ============================= */
-
-.grid,
-.service-grid,
-.portfolio-grid,
-.projects-grid{
-  gap:18px;
 }
 
     /* ===== Premium Experience Badge ===== */
@@ -1513,6 +1419,7 @@ img{
   font-size: 13px;
   opacity: .9;
 }
+
 
 
 
