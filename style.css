@@ -1430,6 +1430,40 @@ textarea.form-input {
         font-size: 12px;
     }
 }
+/* ==== Fix 8+ Years Experience Visibility ==== */
+
+.exp-badge,
+.experience-badge,
+.years-badge,
+.image-wrapper .badge,
+.image-wrapper .experience,
+.image-wrapper .exp-box {
+  opacity: 1 !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  mix-blend-mode: normal !important;
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+/* যদি ভিতরের টেক্সট span/div থাকে */
+.exp-badge *,
+.experience-badge *,
+.years-badge * {
+  opacity: 1 !important;
+  filter: none !important;
+  color: #fff !important;
+}
+
+/* Strong contrast background */
+.exp-badge,
+.experience-badge,
+.years-badge {
+  background: linear-gradient(135deg, #7b2ff7, #f72fb4) !important;
+  box-shadow: 0 8px 20px rgba(247,47,180,0.45);
+  font-weight: 600;
+}
+
 
 
 
