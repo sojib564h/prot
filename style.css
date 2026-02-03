@@ -1407,4 +1407,83 @@ textarea.form-input {
     padding:10px 12px;
   }
 }
+/* =====================
+   Mobile Responsive Fix
+===================== */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-wrapper {
+    width: 90%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .about-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .experience-badge {
+    bottom: 12px;
+    right: 12px;
+    padding: 10px 14px;
+    border-radius: 12px;
+  }
+
+  .badge-number {
+    font-size: 18px;
+  }
+
+  .badge-text {
+    font-size: 11px;
+  }
+
+  .about-content h1 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  .skills .skill span {
+    font-size: 13px;
+  }
+
+  /* Project Buttons Responsive */
+  .project-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .project-buttons a {
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+
 
