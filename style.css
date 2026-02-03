@@ -1430,31 +1430,6 @@ textarea.form-input {
     }
 }
 
-/* ===== Premium Experience Badge ===== */
-
-.exp-badge{
-  background: linear-gradient(135deg, #2b0a3d, #5b117a, #b832f0);
-  color: #fff;
-  border-radius: 16px;
-  padding: 14px 18px;
-  text-align: center;
-  min-width: 120px;
-  box-shadow: 0 10px 25px rgba(184,50,240,.45);
-  border: 1px solid rgba(255,255,255,.08);
-  backdrop-filter: blur(6px);
-}
-
-.exp-badge h3{
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1;
-  margin: 0;
-}
-
-.exp-badge span{
-  font-size: 13px;
-  opacity: .9;
-}
 
 
 
