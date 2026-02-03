@@ -1364,60 +1364,63 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
-    /* ===== Mobile Friendly Project Buttons ===== */
-
-.project-buttons{
+    .project-buttons{
   display:flex;
-  gap:10px;
-  margin:15px 15px 20px;
+  gap:12px;
+  margin-top:15px;
   flex-wrap:wrap;
 }
 
 .project-buttons a{
-  flex:1;
-  min-width:140px;
   text-decoration:none;
   font-size:13px;
-  padding:10px 12px;
+  padding:9px 18px;
   border-radius:25px;
   transition:0.3s;
-  display:flex;
+  display:inline-flex;
   align-items:center;
   justify-content:center;
   gap:6px;
-  font-weight:600;
+  font-weight:500;
+  white-space:nowrap;
 }
 
-/* Watch Proof */
+/* Watch Proof Button */
 .btn-proof{
   background:linear-gradient(135deg,#7b2ff7,#f72fb4);
-  color:#fff;
+  color:white;
 }
 
+.btn-proof:hover{
+  transform:scale(1.05);
+  box-shadow:0 6px 18px rgba(140,82,255,.6);
+}
+
+/* View Report Button */
 .btn-report{
   border:1px solid #8c52ff;
   color:#8c52ff;
 }
 
-/* Hover */
-.btn-proof:hover,
 .btn-report:hover{
-  transform:translateY(-2px);
+  background:#8c52ff;
+  color:#fff;
+  transform:scale(1.05);
 }
 
-/* Mobile Layout */
+/* ✅ Mobile Friendly */
 @media (max-width: 600px){
   .project-buttons{
-    flex-direction:column;
-    margin:15px 10px 20px;
+    justify-content:center;
   }
 
   .project-buttons a{
-    width:100%;
-    font-size:14px;
-    padding:12px;
+    flex:1;
+    font-size:12px;
+    padding:10px 12px;
   }
 }
+
 
 
 
