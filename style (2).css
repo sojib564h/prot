@@ -1406,3 +1406,153 @@ textarea.form-input {
     padding:10px 12px;
   }
 }
+/* =============================
+   GLOBAL MOBILE RESPONSIVE CSS
+   ============================= */
+
+@media (max-width: 992px) {
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 { font-size: 36px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+  p  { font-size: 14px; }
+
+}
+
+/* =============================
+   TABLET + MOBILE
+   ============================= */
+
+@media (max-width: 768px) {
+
+  body{
+    overflow-x:hidden;
+  }
+
+  section{
+    padding:60px 0;
+  }
+
+  /* Navbar */
+  nav{
+    padding:14px 18px;
+  }
+
+  .nav-links{
+    flex-direction:column;
+    gap:14px;
+  }
+
+  /* Hero Section */
+  .hero,
+  .about-wrapper,
+  .about-content,
+  .services-grid,
+  .projects-grid,
+  .contact-wrapper{
+    flex-direction:column !important;
+    grid-template-columns:1fr !important;
+    text-align:center;
+  }
+
+  .hero-left,
+  .hero-right,
+  .about-text,
+  .about-image{
+    width:100% !important;
+  }
+
+  .hero h1{
+    font-size:34px;
+  }
+
+  /* About Image */
+  .image-wrapper{
+    max-width:90%;
+    margin:auto;
+  }
+
+  /* Services Cards */
+  .service-grid{
+    grid-template-columns:1fr;
+  }
+
+  /* Projects Section */
+  .portfolio-grid,
+  .projects-grid{
+    grid-template-columns:1fr;
+  }
+
+  /* Buttons */
+  .project-buttons{
+    flex-direction:column;
+    width:100%;
+  }
+
+  .project-buttons a{
+    width:100%;
+    padding:12px;
+    font-size:14px;
+  }
+
+}
+
+/* =============================
+   SMALL MOBILE
+   ============================= */
+
+@media (max-width: 480px){
+
+  h1{ font-size:28px; }
+  h2{ font-size:24px; }
+
+  p{
+    font-size:13px;
+    line-height:1.6;
+  }
+
+  section{
+    padding:50px 0;
+  }
+
+  .experience-badge{
+    padding:8px 10px;
+  }
+
+  .badge-number{
+    font-size:18px;
+  }
+
+  .badge-text{
+    font-size:11px;
+  }
+
+}
+
+/* =============================
+   IMAGE RESPONSIVE
+   ============================= */
+
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+/* =============================
+   GRID FIX
+   ============================= */
+
+.grid,
+.service-grid,
+.portfolio-grid,
+.projects-grid{
+  gap:18px;
+}
+
+
