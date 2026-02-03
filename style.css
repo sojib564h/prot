@@ -1509,6 +1509,60 @@ textarea.form-input {
     border-radius:16px;
   }
 }
+/* ===== FINAL Mobile Fix for About Image ===== */
+
+.about-image{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+.image-wrapper{
+  width:100%;
+  max-width:420px;
+  height:auto !important;
+  position:relative;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.about-img{
+  width:100%;
+  height:auto;
+  display:block;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+/* Badge Fix */
+.experience-badge{
+  position:absolute;
+  bottom:12px;
+  right:12px;
+  padding:10px 14px;
+  border-radius:12px;
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+  .image-wrapper{
+    max-width:320px;
+  }
+
+  .experience-badge{
+    padding:8px 12px;
+  }
+
+  .badge-number{
+    font-size:18px;
+  }
+
+  .badge-text{
+    font-size:11px;
+  }
+}
+
+
 
 
 
