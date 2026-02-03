@@ -656,7 +656,7 @@ section {
 /* Contact */
 
 .contact {
-    background: #13131a;
+    background: #ffffff;
 }
 
 .contact-content {
@@ -666,7 +666,7 @@ section {
 }
 
 .contact-description {
-    color: #cbd5e1;
+    color: #ffffff;
     margin-bottom: 2rem;
 }
 
@@ -1364,3 +1364,4 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
+
