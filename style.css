@@ -1382,30 +1382,55 @@ textarea.form-input {
     font-size:11px;
   }
 }
-/* ==== FORCE CLEAR TEXT FIX ==== */
+/* ===== FIX EXPERIENCE BADGE VISIBILITY ===== */
+
+.image-wrapper{
+    position: relative;
+    overflow: visible !important;
+}
 
 .experience-badge{
-  background:linear-gradient(135deg,#7b2ff7,#f72fb4);
-  box-shadow:0 10px 25px rgba(247,47,180,.45);
-  backdrop-filter:none !important;
-  filter:none !important;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+    background: linear-gradient(135deg, #7b61ff, #ff4ecb);
+    padding: 10px 16px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,.45);
+    filter: none !important;
+    backdrop-filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
 }
 
-.badge-number{
-  color:#ffffff !important;
-  font-weight:800;
-  font-size:28px;
-  opacity:1 !important;
-  filter:none !important;
-  text-shadow:0 2px 4px rgba(0,0,0,.35);
+/* Text clarity fix */
+.experience-badge h3,
+.experience-badge span{
+    color: #fff !important;
+    font-weight: 700;
+    text-shadow: 0 2px 6px rgba(0,0,0,.5);
 }
 
-.badge-text{
-  color:#ffffff !important;
-  opacity:1 !important;
-  font-weight:500;
-  filter:none !important;
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px){
+    .experience-badge{
+        bottom: 8px;
+        right: 8px;
+        padding: 8px 12px;
+        border-radius: 10px;
+    }
+
+    .experience-badge h3{
+        font-size: 16px;
+    }
+
+    .experience-badge span{
+        font-size: 12px;
+    }
 }
+
 
 
 
