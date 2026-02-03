@@ -1484,6 +1484,33 @@ textarea.form-input {
     font-size: 14px;
   }
 }
+/* ==== About Image Perfect Mobile Fix ==== */
+
+.image-wrapper{
+  background:none !important;
+  height:auto !important;
+}
+
+.about-img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:20px;
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .image-wrapper{
+    max-width:320px;
+    margin:auto;
+  }
+
+  .about-img{
+    border-radius:16px;
+  }
+}
+
+
 
 
 
