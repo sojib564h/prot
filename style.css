@@ -1364,11 +1364,13 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
-    .project-buttons{
+    /* Project Buttons */
+
+.project-buttons{
   display:flex;
   gap:12px;
   margin-top:15px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .project-buttons a{
@@ -1379,10 +1381,8 @@ textarea.form-input {
   transition:0.3s;
   display:inline-flex;
   align-items:center;
-  justify-content:center;
   gap:6px;
   font-weight:500;
-  white-space:nowrap;
 }
 
 /* Watch Proof Button */
@@ -1392,7 +1392,7 @@ textarea.form-input {
 }
 
 .btn-proof:hover{
-  transform:scale(1.05);
+  transform:scale(1.07);
   box-shadow:0 6px 18px rgba(140,82,255,.6);
 }
 
@@ -1408,18 +1408,17 @@ textarea.form-input {
   transform:scale(1.05);
 }
 
-/* ✅ Mobile Friendly */
-@media (max-width: 600px){
+/* Mobile Responsive */
+@media (max-width: 480px){
   .project-buttons{
-    justify-content:center;
+    flex-direction: column;
   }
-
   .project-buttons a{
-    flex:1;
-    font-size:12px;
-    padding:10px 12px;
+    justify-content: center;
+    width:100%;
   }
 }
+
 
 
 
