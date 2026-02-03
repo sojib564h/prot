@@ -1286,4 +1286,67 @@ textarea.form-input {
     .testimonial-card {
         padding: 1rem;
     }
+
+}
+.about-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+}
+
+/* Experience Badge */
+.experience-badge {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(6px);
+  padding: 14px 16px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.badge-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: #b86bff;
+}
+
+.badge-text {
+  font-size: 12px;
+  color: #ddd;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .image-wrapper {
+    max-width: 90%;
+  }
+
+  .experience-badge {
+    padding: 10px 12px;
+  }
+
+  .badge-number {
+    font-size: 22px;
+  }
+
+  .badge-text {
+    font-size: 11px;
+  }
 }
