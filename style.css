@@ -1382,20 +1382,31 @@ textarea.form-input {
     font-size:11px;
   }
 }
-/* ==== Experience Badge Ultra Clear Fix ==== */
+/* ==== FORCE CLEAR TEXT FIX ==== */
 
 .experience-badge{
   background:linear-gradient(135deg,#7b2ff7,#f72fb4);
-  box-shadow:0 8px 25px rgba(247,47,180,.45);
-  opacity:1 !important;
+  box-shadow:0 10px 25px rgba(247,47,180,.45);
+  backdrop-filter:none !important;
+  filter:none !important;
 }
 
-.badge-number,
-.badge-text{
-  color:#fff !important;
+.badge-number{
+  color:#ffffff !important;
+  font-weight:800;
+  font-size:28px;
   opacity:1 !important;
-  text-shadow:0 1px 2px rgba(0,0,0,.25);
+  filter:none !important;
+  text-shadow:0 2px 4px rgba(0,0,0,.35);
 }
+
+.badge-text{
+  color:#ffffff !important;
+  opacity:1 !important;
+  font-weight:500;
+  filter:none !important;
+}
+
 
 
 
