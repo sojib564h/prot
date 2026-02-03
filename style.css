@@ -1343,7 +1343,7 @@ textarea.form-input {
 
 .exp-badge{
   background: linear-gradient(135deg, #2b0a3d, #5b117a, #b832f0);
-  color: #fff;
+  color: #000000;
   border-radius: 16px;
   padding: 14px 18px;
   text-align: center;
@@ -1364,6 +1364,7 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
+
 
 
 
