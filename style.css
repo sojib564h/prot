@@ -1364,9 +1364,7 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
-    /* Project Buttons */
-
-.project-buttons{
+    .project-buttons{
   display:flex;
   gap:12px;
   margin-top:15px;
@@ -1381,6 +1379,7 @@ textarea.form-input {
   transition:0.3s;
   display:inline-flex;
   align-items:center;
+  justify-content:center;
   gap:6px;
   font-weight:500;
 }
@@ -1409,15 +1408,20 @@ textarea.form-input {
 }
 
 /* Mobile Responsive */
-@media (max-width: 480px){
+@media (max-width:600px){
   .project-buttons{
-    flex-direction: column;
+    flex-direction:column;
+    gap:10px;
   }
+
   .project-buttons a{
-    justify-content: center;
     width:100%;
+    padding:12px 16px;
+    font-size:14px;
   }
 }
+
+
 
 
 
