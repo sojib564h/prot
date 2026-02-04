@@ -1364,35 +1364,24 @@ textarea.form-input {
   font-size: 13px;
   opacity: .9;
 }
-    .hero-badge,
-.badge,
-.hero-tag,
-.hero-subtitle {
-  max-width: 100%;
-  width: fit-content;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  white-space: normal;
-  word-break: break-word;
-  line-height: 1.4;
-  padding: 8px 14px;
-}
+    /* Mobile responsive badge fix */
+@media (max-width: 768px) {
+  .badge {
+    max-width: 100%;
+    white-space: normal;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px 12px;
+    line-height: 1.4;
+    margin-top: 55px;
+  }
 
-/* Mobile Fix */
-@media (max-width: 576px) {
-  .hero-badge,
-  .badge,
-  .hero-tag,
-  .hero-subtitle {
-    font-size: 13px;
-    padding: 7px 12px;
-    border-radius: 999px;
-    max-width: 95%;
+  .hero-text {
+    padding-top: 20px;
   }
 }
+
+
 
 
 
